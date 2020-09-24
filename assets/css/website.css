@@ -1,0 +1,410 @@
+body{
+  padding: 0px!important;
+  margin: 0px!important;
+}
+
+.row{
+  padding: 0px!important;
+  margin: 0px!important;
+}
+
+.container-fluid{
+    padding: 0px!important;
+    margin: 0px!important;
+}
+
+.inline{
+  display: inline-block!important;
+}
+
+.no-a{
+  text-decoration: none!important;
+}
+
+h1, h2, h3, h4, h5{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700!important;
+}
+
+p{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500!important;
+}
+/* Font SIze */
+.f-10{
+  font-size: 10px!important;
+}
+.f-12{
+  font-size: 12px!important;
+}
+.f-14{
+  font-size: 14px!important;
+}
+.f-16{
+  font-size: 16px!important;
+}
+.f-18{
+  font-size: 18px!important;
+}
+.f-20{
+  font-size: 20px!important;
+}
+.f-22{
+  font-size: 22px!important;
+}
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  display: flex;
+  align-items: center;
+}
+/* bg-Green, text-white, rounded */
+.btn1{
+  border-radius: 15px;
+  background-color: #00ff49;
+  border-color: #00ff49;
+  box-shadow: none !important;
+  color:#fff;
+  font-weight: 800;
+  /* width: 200px; */
+}
+
+.btn2{
+  background-color: #161d63;
+  border-color: #161d63;
+  box-shadow: none !important;
+  color:#00ff49;
+  font-weight: 800;
+  font-size: 16px !important;
+}
+
+.btn3{
+  border-radius: 15px;
+  background-color: #161d63;
+  border-color: #161d63;
+  box-shadow: none !important;
+  color:#fff;
+  font-weight: 800;
+  /* width: 200px; */
+}
+.btn4{
+  border-radius: 0px !important;
+  background-color: #00ff49;
+  border-color: #00ff49;
+  box-shadow: none !important;
+  color:#161d63;
+  font-weight: 800;
+  /* width: 200px; */
+}
+/* bg-Green, text-white, rounded */
+.btn5{
+  border-radius: 25px;
+  background-color: #fff;
+  border-color: #666;
+  box-shadow: none !important;
+  color:#666;
+  font-weight: 800;
+  /* width: 200px; */
+}
+
+.bg_gray{
+  background-color: #f3f3f3;
+}
+.bg_violet{
+  background-color: #161d63;
+}
+
+.para_text{
+  color: #888888;
+}
+.text_gray{
+  color: #555;
+}
+.sec_shadow{
+  -moz-box-shadow: 0 0 5px 5px #888;
+  -webkit-box-shadow: 0 0 5px 5px#888;
+  box-shadow: 0 0 5px 5px #888;
+}
+
+/* Text Color */
+
+/* Owl Corosol Start */
+.owl-nav button:focus{
+  outline: none !important;
+}
+.owl-prev {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%!important;
+    position: absolute;
+    top: 30%;
+    margin-left: -30px!important;
+    display: block !important;
+    border:2px solid #888 !important;
+    /* background-color: #fece00!important; */
+    color: #000!important;
+}
+
+.owl-prev:hover{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%!important;
+}
+
+.owl-next:hover {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%!important;
+}
+.owl-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%!important;
+  position: absolute;
+  top: 30%;
+  right: -30px;
+  display: block !important;
+  border:2px solid #888 !important;
+  /* background-color: #fece00!important; */
+  color: #000!important;
+}
+.nav-btn{
+  font-size: 25px!important;
+  color: #000;
+}
+.owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}
+
+/* Owl Corosol End */
+
+/* Navbar */
+.top_navbar{
+  background-color:#161d63;
+}
+.top_navbar ul a{
+  color:#fff !important;
+}
+.collapse .active a .heading_text{
+  color: #00ff49;
+}
+.heared_white_strip{
+  z-index: 1024;
+  position: relative;
+  left: 0px;
+  top: 6px;
+}
+/* Navbar End */
+
+
+
+/* Home Start */
+
+.title1{
+  color: #888888;
+}
+.title2{
+  color: #161d63;
+}
+.title3{
+  color: #00ff49;
+}
+
+.home_service_strip{
+  background-color: #f3f3f3;
+}
+.service_strip{
+  background-color:#161d63;
+  z-index: 1024;
+  position: relative;
+  left: 0px;
+  top: -85px;
+}
+
+.border_right{
+  border-right: 2px solid #fff;
+}
+
+.home_we_work{
+  padding: 0px 0px 50px 0px;
+  background-color: #f3f3f3;
+}
+.home_we_work p{
+  color: #888888;
+}
+.work_img{
+  width: 100%;
+}
+
+.home_features{
+  -moz-box-shadow: 0 0 5px 5px #888;
+  -webkit-box-shadow: 0 0 5px 5px#888;
+  box-shadow: 0 0 5px 5px #888;
+}
+.home_features i{
+  font-size: 80px;
+  color:#161d63;
+}
+.feature_title{
+  color:#161d63;
+}
+.feature_text{
+  color: #888888;
+}
+
+.faq{
+  background-color: #f3f3f3;
+}
+.faq_answer{
+  color: #888888;
+}
+
+.areyou_doc{
+  -moz-box-shadow: 0 0 5px 5px #888;
+  -webkit-box-shadow: 0 0 5px 5px#888;
+  box-shadow: 0 0 5px 5px #888;
+}
+.areyou_doc h2{
+  color: #59bbec;
+}
+.areyou_doc_text{
+  color: #888888;
+}
+
+.home_counter{
+  -moz-box-shadow: 0 0 5px 5px #888;
+  -webkit-box-shadow: 0 0 5px 5px#888;
+  box-shadow: 0 0 5px 5px #888;
+}
+.home_counter h1{
+  font-size: 60px;
+  color: #00ff49;
+}
+.home_counter h5{
+  color: #161d63;
+}
+.download_app{
+  display: table-cell;
+}
+.text_td{
+  width: 350px !important;
+}
+.home_counter .text1{
+  color: #161d63;
+}
+.home_counter .text2{
+  color: #00ff49;
+}
+
+/* Pharmacy Page */
+.img_round{
+  border-radius: 25px;
+}
+.img_round2{
+  border-radius: 50%;
+}
+.product{
+  border: none;
+}
+.package_box{
+  border-radius: 25px !important;
+}
+.discount_strip {
+  background-color: #161d63;
+  position: absolute;
+  bottom: 25%;
+  width: 100%;
+}
+.vertical_strip {
+  background-color: #161d63;
+  position: absolute;
+  bottom: 52%;
+  width: 97%;
+  right: -42%;
+  transform: rotateZ(-90deg);
+}
+
+/* Lab Test Start */
+.home_test_strip{
+  background-color: #f3f3f3;
+}
+.test_strip{
+  background-color:#161d63;
+  z-index: 1024;
+  position: relative;
+  left: 0px;
+  top: -85px;
+}
+.test_strip p{
+  color: #fff;
+}
+.home_find_test{
+  background-color: #f3f3f3;
+}
+.find_test {
+    z-index: 1024;
+    position: relative;
+    left: 30%;
+    top: -108px;
+    width: 40%;
+}
+
+.featured_package{
+  margin-top: -70px;
+}
+.fetured_buttons{
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+.fetured_buttons2{
+  display: inline-block;
+}
+.featured_package .package_box{
+  border-radius: 10px !important;
+}
+.lab_partners_testimonial .partner_box{
+  border-radius: 10px !important;
+}
+
+
+
+
+/* Footer */
+footer{
+  background-color: #f3f3f3;
+}
+footer h5{
+  color: #161d63;
+}
+.footer_link{
+  color: #888888;
+  font-weight: 600;
+}
+.footer_feature{
+  display: table-cell;
+}
+.footer_feature i{
+  font-size: 100px;
+  color: #161d63;
+}
+.footer_feature p{
+  color: #888888;
+}
+
+
+
+.pharmacy_sub_menu .navbar .nav-item a{
+  font-size: 16px;
+}
+.appointment_box{
+  border: 1px solid #999;
+  /* padding: 10px; */
+  border-radius: 25px;
+}
+/* Mobile Responsive */
+@media screen and (max-width: 418px) {
+  .owl-next {
+    right: 0px;
+  }
+  .owl-prev {
+    margin-left: 0px!important;
+  }
+}
